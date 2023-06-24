@@ -1,7 +1,7 @@
 can you enhance this readme file for github:
 # Fine-tuning Large Language Model (LLM) on a Custom Dataset with QLoRA
 
-This repository provides a guide on how to fine-tune the [Falcon 7b Large Language Model (LLM)](https://falconllm.tii.ae/)  on a custom dataset using QLoRA. The Falcon model is a powerful LLM with 40 billion parameters and holds the top position on the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). You can train your own LLM using your own data without sharing it with third-party companies or APIs, in a cost-effective manner.
+This repository provides a guide on how to fine-tune the [Falcon 7b Large Language Model (LLM)](https://falconllm.tii.ae/) on a custom dataset using QLoRA. The Falcon model is a powerful LLM with 40 billion parameters and holds the top position on the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). You can train your own LLM using your own data without sharing it with third-party companies or APIs, in a cost-effective manner.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -37,6 +37,8 @@ After the fine-tuning process, the performance of the trained model is evaluated
 To enhance the memory efficiency of the fine-tuning process, the PEFT (Plug-and-Edit Fine-Tuning) library from the Hugging Face ecosystem is leveraged in conjunction with QLoRA. This ensures a more optimized and resource-friendly approach to training your LLM.
 
 ## Demo
+[Link to Notebook](notebook/notebook.ipynb)
+
 [![Demo Video](http://img.youtube.com/vi/-vD_kHpCwRY/0.jpg)](http://www.youtube.com/watch?v=-vD_kHpCwRY)
 
 ## Conclusion
