@@ -1,4 +1,3 @@
-can you enhance this readme file for github:
 # Fine-tuning Large Language Model (LLM) on a Custom Dataset with QLoRA
 
 This repository provides a guide on how to fine-tune the [Falcon 7b Large Language Model (LLM)](https://falconllm.tii.ae/) on a custom dataset using QLoRA. The Falcon model is a powerful LLM with 40 billion parameters and holds the top position on the [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard). You can train your own LLM using your own data without sharing it with third-party companies or APIs, in a cost-effective manner.
